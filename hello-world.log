@@ -1,0 +1,1105 @@
+10:51:57,741 DEBUG SQL:128 - 
+    select
+        message0_.ID as id1_0_0_,
+        message0_.TEXT as text2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+10:51:57,766 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [7]
+10:51:57,773 DEBUG SQL:128 - 
+    select
+        message0_.ID as id1_0_0_,
+        message0_.TEXT as text2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+10:51:57,774 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [7]
+10:52:47,846 DEBUG SQL:128 - 
+    select
+        message0_.ID as id1_0_0_,
+        message0_.TEXT as text2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+10:52:47,870 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [7]
+10:52:47,886 DEBUG SQL:128 - 
+    select
+        message0_.ID as id1_0_0_,
+        message0_.TEXT as text2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+10:52:47,887 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [7]
+10:53:30,764 DEBUG SQL:128 - 
+    select
+        message0_.ID as id1_0_0_,
+        message0_.TEXT as text2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+10:53:30,790 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+10:54:13,770 DEBUG SQL:128 - 
+    select
+        message0_.ID as id1_0_0_,
+        message0_.TEXT as text2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+10:54:13,789 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [7]
+10:54:13,800 DEBUG SQL:128 - 
+    select
+        message0_.ID as id1_0_0_,
+        message0_.TEXT as text2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+10:54:13,801 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [7]
+10:54:42,386 DEBUG SQL:128 - 
+    select
+        message0_.ID as id1_0_0_,
+        message0_.TEXT as text2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+10:54:42,418 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+10:54:42,463 DEBUG SQL:128 - 
+    select
+        message0_.ID as id1_0_0_,
+        message0_.TEXT as text2_0_0_ 
+    from
+        message message0_ 
+    where
+        message0_.ID=?
+10:54:42,464 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+12:17:04,319 DEBUG SQL:128 - 
+    
+    create table Animal (
+       DTYPE varchar(31) not null,
+        id bigint not null auto_increment,
+        name varchar(255),
+        primary key (id)
+    ) engine=MyISAM
+12:17:04,764 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE) 
+    values
+        (?, 'Cat')
+12:17:04,797 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Lucy]
+12:17:04,837 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE) 
+    values
+        (?, 'Dog')
+12:17:04,837 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Oliver]
+12:17:59,800 DEBUG SQL:128 - 
+    select
+        animal0_.id as id2_0_,
+        animal0_.name as name3_0_,
+        animal0_.DTYPE as dtype1_0_ 
+    from
+        Animal animal0_
+12:19:00,095 DEBUG SQL:128 - 
+    select
+        animal0_.id as id2_0_,
+        animal0_.name as name3_0_,
+        animal0_.DTYPE as dtype1_0_ 
+    from
+        Animal animal0_
+12:19:13,553 DEBUG SQL:128 - 
+    select
+        animal0_.id as id2_0_,
+        animal0_.name as name3_0_,
+        animal0_.DTYPE as dtype1_0_ 
+    from
+        Animal animal0_
+12:19:46,541 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE) 
+    values
+        (?, 'Cat')
+12:19:46,562 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Lucy1]
+12:19:46,646 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE) 
+    values
+        (?, 'Dog')
+12:19:46,647 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Oliver2]
+12:20:02,769 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE) 
+    values
+        (?, 'Cat')
+12:20:02,790 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Lucy1]
+12:20:02,851 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE) 
+    values
+        (?, 'Dog')
+12:20:02,852 TRACE BasicBinder:52 - binding parameter [1] as [VARCHAR] - [null]
+12:21:04,952 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE) 
+    values
+        (?, 'Cat')
+12:21:04,981 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Lucy1]
+12:21:05,056 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE) 
+    values
+        (?, 'Dog')
+12:21:05,057 TRACE BasicBinder:52 - binding parameter [1] as [VARCHAR] - [null]
+12:21:59,204 DEBUG SQL:128 - 
+    
+    create table Animal (
+       DTYPE varchar(31) not null,
+        id bigint not null auto_increment,
+        name varchar(255),
+        primary key (id)
+    ) engine=MyISAM
+12:21:59,657 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE) 
+    values
+        (?, 'Cat')
+12:21:59,669 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Lucy1]
+12:21:59,734 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name, DTYPE) 
+    values
+        (?, 'Dog')
+12:21:59,735 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Oliver2]
+12:23:05,348 DEBUG SQL:128 - 
+    
+    create table Animal (
+       id bigint not null auto_increment,
+        name varchar(255),
+        primary key (id)
+    ) engine=MyISAM
+12:23:05,514 DEBUG SQL:128 - 
+    
+    create table Cat (
+       id bigint not null,
+        primary key (id)
+    ) engine=MyISAM
+12:23:05,636 DEBUG SQL:128 - 
+    
+    create table Dog (
+       id bigint not null,
+        primary key (id)
+    ) engine=MyISAM
+12:23:05,815 DEBUG SQL:128 - 
+    
+    alter table Cat 
+       add constraint FKuvkn4uhxvjlpectf8o7yi4kq 
+       foreign key (id) 
+       references Animal (id)
+12:23:06,147 DEBUG SQL:128 - 
+    
+    alter table Dog 
+       add constraint FKpt87v28upxqbirkjqglpx7hyf 
+       foreign key (id) 
+       references Animal (id)
+12:23:07,158 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name) 
+    values
+        (?)
+12:23:07,171 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Lucy1]
+12:23:07,228 DEBUG SQL:128 - 
+    insert 
+    into
+        Cat
+        (id) 
+    values
+        (?)
+12:23:07,230 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [1]
+12:23:07,335 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name) 
+    values
+        (?)
+12:23:07,336 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Oliver2]
+12:23:07,395 DEBUG SQL:128 - 
+    insert 
+    into
+        Dog
+        (id) 
+    values
+        (?)
+12:23:07,396 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:25:03,480 DEBUG SQL:128 - 
+    
+    create table Animal (
+       id bigint not null auto_increment,
+        name varchar(255),
+        primary key (id)
+    ) engine=MyISAM
+12:25:03,763 DEBUG SQL:128 - 
+    
+    create table Cat (
+       size integer not null,
+        id bigint not null,
+        primary key (id)
+    ) engine=MyISAM
+12:25:03,867 DEBUG SQL:128 - 
+    
+    create table Dog (
+       id bigint not null,
+        primary key (id)
+    ) engine=MyISAM
+12:25:03,986 DEBUG SQL:128 - 
+    
+    alter table Cat 
+       add constraint FKuvkn4uhxvjlpectf8o7yi4kq 
+       foreign key (id) 
+       references Animal (id)
+12:25:04,419 DEBUG SQL:128 - 
+    
+    alter table Dog 
+       add constraint FKpt87v28upxqbirkjqglpx7hyf 
+       foreign key (id) 
+       references Animal (id)
+12:25:04,917 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name) 
+    values
+        (?)
+12:25:04,930 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Lucy1]
+12:25:04,964 DEBUG SQL:128 - 
+    insert 
+    into
+        Cat
+        (size, id) 
+    values
+        (?, ?)
+12:25:04,965 TRACE BasicBinder:64 - binding parameter [1] as [INTEGER] - [0]
+12:25:04,966 TRACE BasicBinder:64 - binding parameter [2] as [BIGINT] - [1]
+12:25:04,983 DEBUG SQL:128 - 
+    insert 
+    into
+        Animal
+        (name) 
+    values
+        (?)
+12:25:04,983 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Oliver2]
+12:25:05,005 DEBUG SQL:128 - 
+    insert 
+    into
+        Dog
+        (id) 
+    values
+        (?)
+12:25:05,005 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:25:45,457 DEBUG SQL:128 - 
+    
+    alter table Cat 
+       add constraint FKuvkn4uhxvjlpectf8o7yi4kq 
+       foreign key (id) 
+       references Animal (id)
+12:25:46,189 DEBUG SQL:128 - 
+    
+    alter table Dog 
+       add constraint FKpt87v28upxqbirkjqglpx7hyf 
+       foreign key (id) 
+       references Animal (id)
+12:25:46,751 DEBUG SQL:128 - 
+    select
+        animal0_.id as id1_0_,
+        animal0_.name as name2_0_,
+        animal0_1_.size as size1_1_,
+        case 
+            when animal0_1_.id is not null then 1 
+            when animal0_2_.id is not null then 2 
+            when animal0_.id is not null then 0 
+        end as clazz_ 
+    from
+        Animal animal0_ 
+    left outer join
+        Cat animal0_1_ 
+            on animal0_.id=animal0_1_.id 
+    left outer join
+        Dog animal0_2_ 
+            on animal0_.id=animal0_2_.id
+12:29:15,815 DEBUG SQL:128 - 
+    
+    create table Cat (
+       id bigint not null,
+        name varchar(255),
+        size integer not null,
+        primary key (id)
+    ) engine=MyISAM
+12:29:15,985 DEBUG SQL:128 - 
+    
+    create table Dog (
+       id bigint not null,
+        name varchar(255),
+        primary key (id)
+    ) engine=MyISAM
+12:29:16,095 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+12:29:16,098 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+12:29:16,409 DEBUG SQL:128 - 
+    select
+        animal0_.id as id1_0_,
+        animal0_.name as name2_0_,
+        animal0_.size as size1_1_,
+        animal0_.clazz_ as clazz_ 
+    from
+        ( select
+            id,
+            name,
+            size,
+            1 as clazz_ 
+        from
+            Cat 
+        union
+        all select
+            id,
+            name,
+            null as size,
+            2 as clazz_ 
+        from
+            Dog 
+    ) animal0_
+12:30:27,693 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+12:30:27,707 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+12:30:27,841 DEBUG SQL:128 - 
+    select
+        tbl.next_val 
+    from
+        hibernate_sequences tbl 
+    where
+        tbl.sequence_name=? for update
+            
+21:06:28,262 DEBUG SQL:128 - 
+    
+    alter table Guide 
+       add column version integer
+21:06:28,776 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+21:06:28,779 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+21:06:28,792 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+21:06:29,142 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:06:29,156 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+21:08:15,457 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+21:08:15,482 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+21:08:15,493 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+21:08:16,269 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:08:16,292 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [17]
+21:08:52,492 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+21:08:52,513 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+21:08:52,523 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+21:08:53,683 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:08:53,701 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [17]
+21:08:53,771 DEBUG SQL:128 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+21:08:53,778 DEBUG SQL:128 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+21:08:53,853 DEBUG SQL:128 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, version, id) 
+    values
+        (?, ?, ?, ?, ?)
+21:08:53,855 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [test1]
+21:08:53,855 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [4000]
+21:08:53,856 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000MO10789]
+21:08:53,856 TRACE BasicBinder:64 - binding parameter [4] as [INTEGER] - [0]
+21:08:53,856 TRACE BasicBinder:64 - binding parameter [5] as [BIGINT] - [27]
+21:09:30,370 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+21:09:30,384 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+21:09:30,392 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+21:09:30,951 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:09:30,963 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [17]
+21:09:31,018 DEBUG SQL:128 - 
+    select
+        next_val as id_val 
+    from
+        hibernate_sequence for update
+            
+21:09:31,024 DEBUG SQL:128 - 
+    update
+        hibernate_sequence 
+    set
+        next_val= ? 
+    where
+        next_val=?
+21:09:31,185 DEBUG SQL:128 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id, version, id) 
+    values
+        (?, ?, ?, ?, ?)
+21:09:31,188 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [test1]
+21:09:31,189 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [4000]
+21:09:31,189 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000MO10789]
+21:09:31,190 TRACE BasicBinder:64 - binding parameter [4] as [INTEGER] - [0]
+21:09:31,190 TRACE BasicBinder:64 - binding parameter [5] as [BIGINT] - [28]
+21:11:06,148 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+21:11:06,163 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+21:11:06,173 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+21:11:06,690 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:11:06,703 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [28]
+21:11:06,750 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_1_,
+        guide0_.name as name2_3_1_,
+        guide0_.salary as salary3_3_1_,
+        guide0_.staff_id as staff_id4_3_1_,
+        guide0_.version as version5_3_1_,
+        students1_.guide_id as guide_id4_5_3_,
+        students1_.id as id1_5_3_,
+        students1_.id as id1_5_0_,
+        students1_.enrollment_id as enrollme2_5_0_,
+        students1_.guide_id as guide_id4_5_0_,
+        students1_.name as name3_5_0_ 
+    from
+        Guide guide0_ 
+    left outer join
+        Student students1_ 
+            on guide0_.id=students1_.guide_id 
+    where
+        guide0_.id=?
+21:11:06,751 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [28]
+21:11:06,762 DEBUG SQL:128 - 
+    update
+        Guide 
+    set
+        name=?,
+        salary=?,
+        staff_id=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+21:11:06,763 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [test1]
+21:11:06,764 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [1000]
+21:11:06,764 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000MO10789]
+21:11:06,765 TRACE BasicBinder:64 - binding parameter [4] as [INTEGER] - [1]
+21:11:06,765 TRACE BasicBinder:64 - binding parameter [5] as [BIGINT] - [28]
+21:11:06,765 TRACE BasicBinder:64 - binding parameter [6] as [INTEGER] - [0]
+21:11:34,838 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+21:11:34,860 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+21:11:34,870 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+21:11:35,962 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:11:35,979 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [28]
+21:11:41,720 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+21:11:41,736 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+21:11:41,746 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+21:11:42,886 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+21:11:42,898 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [28]
+21:11:42,947 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_1_,
+        guide0_.name as name2_3_1_,
+        guide0_.salary as salary3_3_1_,
+        guide0_.staff_id as staff_id4_3_1_,
+        guide0_.version as version5_3_1_,
+        students1_.guide_id as guide_id4_5_3_,
+        students1_.id as id1_5_3_,
+        students1_.id as id1_5_0_,
+        students1_.enrollment_id as enrollme2_5_0_,
+        students1_.guide_id as guide_id4_5_0_,
+        students1_.name as name3_5_0_ 
+    from
+        Guide guide0_ 
+    left outer join
+        Student students1_ 
+            on guide0_.id=students1_.guide_id 
+    where
+        guide0_.id=?
+21:11:42,947 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [28]
+21:11:42,960 DEBUG SQL:128 - 
+    update
+        Guide 
+    set
+        name=?,
+        salary=?,
+        staff_id=?,
+        version=? 
+    where
+        id=? 
+        and version=?
+21:11:42,961 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [test1]
+21:11:42,961 TRACE BasicBinder:64 - binding parameter [2] as [INTEGER] - [3000]
+21:11:42,962 TRACE BasicBinder:64 - binding parameter [3] as [VARCHAR] - [2000MO10789]
+21:11:42,962 TRACE BasicBinder:64 - binding parameter [4] as [INTEGER] - [2]
+21:11:42,962 TRACE BasicBinder:64 - binding parameter [5] as [BIGINT] - [28]
+21:11:42,963 TRACE BasicBinder:64 - binding parameter [6] as [INTEGER] - [1]
+21:11:53,553 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_1_,
+        guide0_.name as name2_3_1_,
+        guide0_.salary as salary3_3_1_,
+        guide0_.staff_id as staff_id4_3_1_,
+        guide0_.version as version5_3_1_,
+        students1_.guide_id as guide_id4_5_3_,
+        students1_.id as id1_5_3_,
+        students1_.id as id1_5_0_,
+        students1_.enrollment_id as enrollme2_5_0_,
+        students1_.guide_id as guide_id4_5_0_,
+        students1_.name as name3_5_0_ 
+    from
+        Guide guide0_ 
+    left outer join
+        Student students1_ 
+            on guide0_.id=students1_.guide_id 
+    where
+        guide0_.id=?
+21:11:53,554 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [28]
+12:11:24,907 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+12:11:24,926 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+12:11:24,942 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+12:11:25,524 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:11:25,631 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:11:25,673 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:11:25,673 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:21:42,474 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+12:21:42,493 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+12:21:42,502 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+12:21:43,063 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:21:43,076 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:21:43,086 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:21:43,087 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:22:25,315 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+12:22:25,334 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+12:22:25,343 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+12:22:26,191 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:22:26,214 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:22:26,230 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:22:26,230 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:22:33,549 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+12:22:33,615 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+12:22:33,660 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+12:23:38,180 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+12:23:38,201 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+12:23:38,211 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+12:23:38,764 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:23:38,784 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:23:38,797 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:23:38,797 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:23:54,623 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+12:23:54,649 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+12:23:54,661 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+12:23:55,286 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:23:55,309 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:23:55,326 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:23:55,327 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:24:00,218 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+12:24:00,241 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+12:24:00,251 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+12:24:15,520 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:24:15,532 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:24:15,542 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:24:15,542 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:26:40,130 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+12:26:40,155 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+12:26:40,166 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+12:26:41,006 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:26:41,029 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:26:41,046 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:26:41,047 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:26:50,180 DEBUG SQL:128 - 
+    
+    create table hibernate_sequences (
+       sequence_name varchar(255) not null,
+        next_val bigint,
+        primary key (sequence_name)
+    ) engine=MyISAM
+12:26:50,198 DEBUG SQL:128 - 
+    
+    insert into hibernate_sequences(sequence_name, next_val) values ('default',0)
+12:26:50,207 DEBUG SQL:128 - 
+    
+    alter table Student 
+       add constraint FKb4ny3l3cnsxbbn601ev8mhlj5 
+       foreign key (guide_id) 
+       references Guide (id)
+12:26:50,692 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:26:50,704 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
+12:26:50,715 DEBUG SQL:128 - 
+    select
+        guide0_.id as id1_3_0_,
+        guide0_.name as name2_3_0_,
+        guide0_.salary as salary3_3_0_,
+        guide0_.staff_id as staff_id4_3_0_,
+        guide0_.version as version5_3_0_ 
+    from
+        Guide guide0_ 
+    where
+        guide0_.id=?
+12:26:50,715 TRACE BasicBinder:64 - binding parameter [1] as [BIGINT] - [2]
